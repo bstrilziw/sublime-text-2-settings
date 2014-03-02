@@ -1,0 +1,12 @@
+[
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+alt+c"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	{ "keys": ["ctrl+shift+alt+f"], "command": "reindent" , "args": {"single_line": false} },
+	{ "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
+	{ "keys": ["f2"], "command": "side_bar_rename" },
+	{ "keys": ["ctrl+shift+alt+down"], "command": "next_bookmark" },
+	{ "keys": ["ctrl+shift+alt+up"], "command": "prev_bookmark" },
+	{ "keys": ["ctrl+shift+alt+left"], "command": "toggle_bookmark" },
+	{ "keys": ["ctrl+shift+alt+right"], "command": "toggle_bookmark" }
+]
